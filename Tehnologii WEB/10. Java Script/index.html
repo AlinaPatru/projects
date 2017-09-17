@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tabel js</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div id = "divTabel">
+				<table id = "tabel">
+					<tr>
+						<th>Nr.Crt.</th>
+						<th>Nume</th>
+						<th>Prenume</th>
+						<th>CNP</th>
+						<th>Varsta</th>
+						<th>Angajat</th>
+						<th></th>
+					</tr>
+				</table>
+			</div>
+			<div id="info">
+				<div id = "divForm">
+					<form>
+						Nume:
+						<br/>
+						<input id="nume" type="text" /><br/>
+						Prenume:
+						<br/>
+						<input id="prenume" type="text" /><br/>
+						CNP:
+						<br/>
+						<input id="cnp" type="text" /><br/>
+						Varsta:
+						<br/>
+						<input id="varsta" type="text" /><br/>
+						Ocupatie:
+						<br/>
+						<select id="ocupatie">
+							<option value="angajat">Angajat</option>
+							<option value="neangajat">Neangajat</option>
+						</select><br/>
+						<input type="button" onclick="adauga()" value="Adauga"/>
+						<input type="button" onclick="goleste()" value="Goleste"/>
+					</form>
+				</div><br/><br/><br/><br/>
+				<div id = "divInformatii">
+					Numar persoane peste 20 de ani:
+					<input id = "1" type="text" disabled value="0"/><br/>
+					Numar persoane sub 20 de ani:
+					<input id = "2" type="text" disabled value="0"/><br/>
+					Persoane angajate peste 20 de ani:
+					<input id = "3" type="text" disabled value="0"/><br/>
+					Persoane fara ocupatie peste 20 de ani:
+					<input id = "4" type="text" disabled value="0"/><br/>
+					Persoane angajate sub 20 de ani:
+					<input id = "5" type="text" disabled value="0"/><br/>
+					Persoane fara ocupatie sub 20 de ani:
+					<input id = "6" type="text" disabled value="0"/><br/>
+				</div>
+			</div>
+		</div>
+		<script>
+			 var nrc = 0;
+			 function adauga()
+			 {
+				nrc = nrc + 1;
+				var increment = parseInt(nrc);
+				var table = document.getElementById("tabel");
+				var row = table.insertRow(-1);
+				row.setAttribute("id","myRow" + increment);
+				
+				var nrcrt = row.insertCell(0);
+				var nume = row.insertCell(1);
+				var prenume = row.insertCell(2);
+				var cnp = row.insertCell(3);
+				var varsta = row.insertCell(4);
+				var angajat = row.insertCell(5);
+				var buttonCell = row.insertCell(6);
+				
+				var e = document.getElementById("ocupatie");
+				var str = e.options[e.selectedIndex].text;
+						
+				nrcrt.innerHTML = increment;
+				nume.innerHTML = document.getElementById("nume").value;
+				prenume.innerHTML = document.getElementById("prenume").value;
+				cnp.innerHTML = document.getElementById("cnp").value;
+				varsta.innerHTML = document.getElementById("varsta").value;
+				
+				var string = 'checkbox' +increment;
+				if(str == "Angajat")
+					angajat.innerHTML = '<input id='+string+' type = "checkbox" checked disabled/>';
+				else
+					angajat.innerHTML = '<input id='+string+' type = "checkbox" />';
+				buttonCell.innerHTML = '<input type = "button" value = "Sterge" onclick = "sterge('+increment+')"/>';
+				
+				goleste();
+				informatii();
+			 }
+			 
+			 function goleste()
+			 {
+				document.getElementById("nume").value = '';
+				document.getElementById("prenume").value = '';
+				document.getElementById("cnp").value = '';
+				document.getElementById("varsta").value = '';
+				
+			 }
+			 
+			 function sterge(nr)
+			 {
+				var row = document.getElementById("myRow"+nr);
+				row.parentNode.removeChild(row);
+				
+				informatii();
+			 }
+			 
+			 function informatii()
+			 {
+				document.getElementById("1").value = 0;
+				document.getElementById("2").value = 0;
+				document.getElementById("3").value = 0;
+				document.getElementById("4").value = 0;
+				document.getElementById("5").value = 0;
+				document.getElementById("6").value = 0;
+				
+				var table = document.getElementById("tabel");
+				for (var i = 1, row; row = table.rows[i]; i++) 
+				{
+					var varsta = row.cells[4].innerHTML;
+					var nr = row.cells[0].innerHTML;
+					if(varsta > 20)
+					{
+						document.getElementById("1").value ++;
+						document.getElementById('checkbox'+nr);
+						if(document.getElementById('checkbox'+nr).checked)
+						{
+							document.getElementById("3").value ++;
+						}
+						else
+						{
+							document.getElementById("4").value ++;
+						}
+						
+					}
+					else
+					{
+						document.getElementById("2").value ++;
+						document.getElementById('checkbox'+nr);
+						if(document.getElementById('checkbox'+nr).checked)
+						{
+							document.getElementById("5").value ++;
+						}
+						else
+						{
+							document.getElementById("6").value ++;
+						}
+					}
+				}
+			 }		 
+		</script>
+	</body>
+</html>

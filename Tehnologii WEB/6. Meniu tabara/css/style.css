@@ -1,0 +1,42 @@
+html{
+	background:url("../images/background2.jpg");
+	background-size:cover;
+}
+div{
+	
+	width: 1300px;
+	margin:10px;
+	padding-left:30px;
+}
+table{
+	float:left;
+	width:80%;
+}
+table,td,th{
+	border-color:#023e8f;
+    border-style:solid;
+	border-width:3px;
+	border-collapse:collapse;
+	color:#023e8f;
+	font-size:20px;
+}
+td{
+	width:180px;
+}
+tr{
+	height:100px;
+}
+#headers{
+	height:50px;
+}
+img{
+	vertical-align: bottom;
+	width:180px;
+	height:130px;
+}
+h1{
+	padding-left:400px;
+	padding-top:10px;
+	padding-bottom:20px;
+	color:#023e8f;
+}

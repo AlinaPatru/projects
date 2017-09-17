@@ -1,0 +1,60 @@
+.box1,.box2,.box3,.box4
+{
+	width:120px;
+	height:120px;
+	background-color:darkred;
+	color:#ff6600;
+	font-weight:bold;
+	text-align:center;
+	margin:10px;
+	font-size:25px;
+	float:left;
+	border:2px dotted #ff6600;
+}
+.box1:hover
+{
+	-webkit-animation:unu 3s;
+}
+@-webkit-keyframes unu
+{
+	from{border-radius:0px;
+	background-color:darkred;}
+	to{border-radius:50%;
+	background-color:#ff3300;}
+}
+.box2:hover
+{ 
+	-webkit-animation:doi 3s;
+	-webkit-animation-iteration-count: 10;
+}
+@-webkit-keyframes doi
+{
+	from{-webkit-transform:rotate(0deg);
+	background-color:darkred;}
+	to{-webkit-transform:rotate(360deg);
+	background-color:#ffe6e6;}
+}
+.box3:hover
+{ 
+	-webkit-animation:trei 3s;
+	-webkit-animation-iteration-count: 10;
+}
+@-webkit-keyframes trei
+{
+	from{-webkit-transform:rotate(0deg) scale(1);}
+	to{-webkit-transform:rotate(360deg) scale(0);}
+}
+.box4:hover
+{ 
+	-webkit-animation:patru 3s;
+	-webkit-animation-iteration-count: 10;
+}
+@-webkit-keyframes patru
+{
+	from{-webkit-transform:perspective(300px) rotateY(0deg);
+	border-style: dotted;
+	border-width: 2px;}
+	to{-webkit-transform:perspective(300px) rotateY(360deg);
+	border-style: dotted;
+	border-width: 25px;}
+}

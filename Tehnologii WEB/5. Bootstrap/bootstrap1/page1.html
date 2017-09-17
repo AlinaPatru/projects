@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Collapse : Accordion</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body style="background-color:#b3cce6">
+		<div class="jumbotron text-center" style="background-color:#e6f2ff">
+			<img class="pull-left" src="./images/icon-b3.png" width="100" height="100" style="padding:20px;"/>
+			<h1 style="color:#00264d">Bootstrap Collapse : Accordion</h1>
+			<p style="color:#0080ff">The following example shows a simple accordion by extending the panel component:</p> 
+			<a style="color:#cc0000" href="index.html">Back to main page</a>
+		</div>
+
+		<div class="container">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default"  style="border: 2px dotted #0080ff" >
+					<div class="panel-heading" style="background-color:#00264d">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color:#0080ff">Bootstrap</a>
+						</h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse in">
+						<div class="panel-body" style="color:#004080;background-color:#b3d9ff">Bootstrap is a free and open-source front-end web framework for designing 
+						websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, 
+						buttons, navigation and other interface components, as well as optional JavaScript extensions. 
+						Unlike many web frameworks, it concerns itself with front-end development only.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default"  style="border: 2px dotted #0080ff" >
+					<div class="panel-heading" style="background-color:#00264d">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color:#0080ff">HTML</a>
+						</h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body" style="color:#004080;background-color:#b3d9ff">HyperText Markup Language (HTML) is the standard markup language for creating 
+						web pages and web applications. With Cascading Style Sheets (CSS), and JavaScript, it forms a triad of 
+						cornerstone technologies for the World Wide Web.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default" style="border: 2px dotted #0080ff" >
+					<div class="panel-heading" style="background-color:#00264d">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="color:#0080ff">CSS</a>
+						</h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse" >
+						<div class="panel-body" style="color:#004080;background-color:#b3d9ff">Cascading Style Sheets (CSS) is a style sheet language used for describing 
+						the presentation of a document written in a markup language.[1] Although most often used to set the 
+						visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied 
+						to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on 
+						other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create 
+						visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>

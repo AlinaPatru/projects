@@ -1,0 +1,49 @@
+html{
+    background: linear-gradient(to top, #E8E8E8 0%, #A0A0A0 100%);
+}
+h1{
+	text-align:center;
+	color:#4d0000;
+	text-shadow: 3px 2px #C00000 ;
+}
+h2{
+	color:#4d0000;
+}
+label {
+    clear:left;
+    text-align:right;
+    padding-right:30px;
+	width:180px;
+	float: left;
+	cursor: default;
+}
+.inner {
+    width: 500px;
+    margin: 0 auto; 
+}
+.outer{
+    width: 900px;
+    margin: 0 auto; 
+}
+input,label,textarea{
+	color:#800000;
+	border-radius: 5px;
+}
+#picture{
+	border:3px dotted #800000;
+	background:#D8D8D8;
+	width: 200px;
+}
+.textInput{
+	width: 200px;
+	border-style: inset;
+	border-color:#800000 ;
+}
+textarea{
+	width:500px;
+}
+#submitB{
+	border:3px dotted #800000;
+	background:#686868;
+	width: 100px;
+}

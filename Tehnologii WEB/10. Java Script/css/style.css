@@ -1,0 +1,55 @@
+table,td,th{
+	border-color:#023e8f;
+    border-style:dotted;
+	border-width:3px;
+	border-collapse:collapse;
+	color:#023e8f;
+	font-size:20px;
+}
+html{
+	background-color:#e6f2ff;
+}
+th{
+	background-color:#023e8f;
+	color:#e6f2ff;
+}
+table{
+	width:500px;
+}
+.container{
+	display:inline;
+	width:1400px;
+}
+#divTabel{
+	width:500px;
+	float :left;
+	padding-top:80px;
+}
+#info{
+	width:400px;
+	height:200px;
+	float :right;
+	padding-right:180px;
+	padding-top:80px;
+	font-size:16px;
+	font-weight:bold;
+}
+#divForm{
+	border:2px dotted #023e8f;
+	color:#023e8f;
+}
+#divInformatii{
+	border:2px dotted #023e8f;
+	color:#023e8f;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 2px 2px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+	font-size:16px;
+	font-weight:bold;
+}

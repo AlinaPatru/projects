@@ -1,0 +1,109 @@
+#VRML V1.0 ascii
+	
+#Fata mos
+#culoare alb
+Material {diffuseColor 0.6 0.4 0.2}
+#SFERA
+Sphere {radius 1}
+
+#Ochiul stang
+Transform{translation -.4 0.1 .8}
+#Culoare albastru
+Material {diffuseColor 0.1 .1 1}
+Sphere{ radius .2}
+
+#Ochiul drept
+Transform{translation .8 0 0}
+#Culoare albastru
+Material {diffuseColor 0.1 .1 1}
+Sphere{ radius .2}
+
+#Gura
+Transform{translation -.40 -.5 0 scaleFactor 1.5 .5 1 }
+#Culoare rosie
+Material {diffuseColor 1 0 0}
+Sphere{ radius .2}
+
+#Corp
+Transform{translation 0 -3.3 -0.85}
+Material {diffuseColor 0.5 0 0}
+#dreptungi
+Cube { height 5 width 1.5 depth 2 }
+	  
+#Picior stang
+Transform{translation -0.4 -5.5 0}
+Material {diffuseColor 0.5 0 0}
+#cilindru
+Cylinder{ parts ALL radius 0.35 height 6} #END CYLINDER
+
+#Picior drept
+Transform{translation 0.8 0 0}
+Material {diffuseColor 0.5 0 0}
+#cilindru
+Cylinder{ parts ALL radius 0.35 height 6} #END CYLINDER
+		
+#Palarie		
+Transform{translation -0.4 12.5 0.10}
+Material {diffuseColor 0.5 0 0}
+#cilindru
+Cone{bottomRadius .7 height 3.5} #END CYLINDER
+		
+#Ciucure
+Transform{translation 0 1.8 0.10 scaleFactor 1.25 2.5 1}
+Material {diffuseColor 1 1 1}
+#cilindru
+Sphere{ radius .2}
+
+#Mana dreapta
+Transform{translation -0.8 -3.5 0.6 rotation 1 0 0 90}
+Material {diffuseColor 0.5 0 0}
+#cilindru
+Cylinder{ parts ALL radius 0.2 height 3} #END CYLINDER
+
+#Mana stanga
+Transform{translation 1.6 0 0}
+Material {diffuseColor 0.5 0 0}
+#cilindru
+Cylinder{ parts ALL radius 0.2 height 3} #END CYLINDER
+
+#Nasture 1
+Transform{translation -0.8 0.3 0.5 rotation 1 0 0 90}
+#Culoare albastru
+Material {diffuseColor 0 0 0}
+Sphere{ radius .2}
+
+#Nasture 2
+Transform{translation 0 -0.35 0.35 }
+#Culoare albastru
+Material {diffuseColor 0 0 0}
+Sphere{ radius .2}
+
+#Nasture 3
+Transform{translation 0 -0.45 0.35 }
+#Culoare albastru
+Material {diffuseColor 0 0 0}
+Sphere{ radius .2}
+
+#Brad
+Transform{translation 5 0 2 rotation 1 0 0 90}
+Material {diffuseColor 0 0.5 0}
+#cilindru
+Cone{bottomRadius 2 height 8} #END CYLINDER
+
+#Trunchi de brad
+Transform{translation 0 -4 0 }
+Material {diffuseColor 0.1 0 0}
+#cilindru
+Cylinder{ parts ALL radius 0.5 height 3} #END CYLINDER
+
+#Cadou
+Transform{translation -1.75 -1 1}
+Material {diffuseColor 0.7 0.4 0.2}
+#dreptungi
+Cube { height 1.5 width 1.5 depth 1.5 }
+
+#Cadou
+Transform{translation 3 0 0}
+Material {diffuseColor 0.9 0.2 0.5}
+#dreptungi
+Cube { height 1.5 width 1.5 depth 1.5 }

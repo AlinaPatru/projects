@@ -1,0 +1,26 @@
+body{
+	text-align: justify;
+	font-size:14px;
+}
+h1{
+	text-align:center;
+	color:red;
+	font-size:16px;
+	text-transform: capitalize;
+}
+h2{
+	color:blue;
+	text-align:center;
+	font-size:14px;
+	text-transform: capitalize;
+}
+p{
+	padding-left:37px;
+}
+.doc{
+	padding-left:74px;
+}
+span{
+	border-color:red;
+	border-style:solid;
+}

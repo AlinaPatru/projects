@@ -1,0 +1,28 @@
+img
+{
+	opacity:0.9;
+	padding:10px;
+	-webkit-filter: grayscale(1);
+}
+img:hover
+{ 
+	opacity:1;
+	-webkit-filter: grayscale(0);
+	border-radius: 50%;
+}
+.curve
+{
+	width: 33%; height: auto;
+	min-width: 400px;
+	float: left; 
+	border-radius: 50%;
+	-webkit-shape-outside:circle();
+	shape-outside:circle();
+	padding:10px;
+	border:2px dotted #484f4f;
+	background-color:white;
+}
+.container {
+	width:1600px;
+	float: left;
+}

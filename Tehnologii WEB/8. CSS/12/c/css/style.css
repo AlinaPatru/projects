@@ -1,0 +1,40 @@
+#text{
+	margin-top:80px;
+	text-align: justify;
+	padding-right:56px;
+	padding-left:56px;
+	font-size:14px;
+}
+h1{
+	background:url('https://s-media-cache-ak0.pinimg.com/originals/c7/06/d8/c706d8e845755020ba44b19ee730576a.jpg');
+	text-align:center;
+	color:red;
+	font-size:16px;
+}
+h2{
+	background:url('https://s-media-cache-ak0.pinimg.com/originals/c7/06/d8/c706d8e845755020ba44b19ee730576a.jpg');
+	color:blue;
+	text-align:left;
+	font-size:14px;
+}
+ul li{
+	margin: 0;
+    padding-bottom:12px;
+	color:#000080;
+}
+ul{
+	margin: 0;
+    padding-left: 12px;
+	list-style-type: lower-alpha;
+}
+p{
+	color:#000080;
+}
+#image{
+	background:url('https://sites.google.com/site/nationalistulromansiromania/_/rsrc/1467890730769/stemele-statului-romania-grafica-3d/Coat%20Gold%20Of%20Romania%20-sample2.png?height=400&width=397');
+    width:100%;
+    min-height:189px;
+	background-repeat:repeat-x;
+	background-size:200px;
+	background-attachment:fixed;
+}

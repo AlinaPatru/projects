@@ -1,0 +1,27 @@
+img
+{
+	-webkit-filter: grayscale(1);
+}
+.img1:hover
+{ 
+	-webkit-filter: grayscale(0);
+	-webkit-transform: rotate(20deg);
+	-webkit-transform: skewY(20deg);
+}
+.img2{
+	transition: width 2s;
+}
+
+.img2:hover
+{ 
+	-webkit-filter: grayscale(0);
+	width:700px;
+}
+.bimg:hover{
+	transform: scale(3, 3);
+	-webkit-filter: grayscale(0);
+}
+.container {
+	width:1600px;
+	float: center;
+}

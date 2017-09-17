@@ -1,0 +1,32 @@
+html{
+	background:url('http://publicdomainarchive.com/wp-content/uploads/2016/01/public-domain-images-free-stock-photos-002-1000x667.jpg');
+	background-size:cover;
+	text-align: justify;
+	padding-right:56px;
+	padding-left:56px;
+	font-size:14px;
+	background-attachment:fixed;
+}
+h1{
+	text-align:center;
+	color:red;
+	font-size:16px;
+}
+h2{
+	color:blue;
+	text-align:left;
+	font-size:14px;
+}
+ul li{
+	margin: 0;
+    padding-bottom:12px;
+	color:#000080;
+}
+ul{
+	margin: 0;
+    padding-left: 12px;
+	list-style-type: lower-alpha;
+}
+p{
+	color:#000080;
+}

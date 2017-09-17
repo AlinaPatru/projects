@@ -1,0 +1,39 @@
+#icon{
+	float: left;
+	width:100px;
+}
+#icon:hover{
+	-webkit-animation-name:doi;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes doi
+{
+	from{
+		-webkit-transform:perspective(300px) rotateY(0deg);
+		}
+	to{	
+		-webkit-transform:perspective(300px) rotateY(360deg);
+		}
+}
+h1{
+	padding-left:200px;
+	font-size:30px;
+	padding-top:20px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px #000000;
+}
+#headerDiv{
+	margin-left:50px;
+	margin-right:50px;
+	border-bottom:2px solid #000080;
+}
+#span1{
+	color:#000080;
+}
+#span2{
+	color:#ffff00;
+}
+#span3{
+	color:#e60000;
+}

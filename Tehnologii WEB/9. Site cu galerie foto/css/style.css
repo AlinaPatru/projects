@@ -1,0 +1,166 @@
+html{
+	background-image:url('../images/b8.jpg');
+	background-size: cover;
+}
+a{
+	padding-left:20px;
+	color:#e60000;
+	font-weight:bold;
+}
+.span{
+	font-size:32px;
+	padding-left:50px;
+	color:#e60000;
+}
+.paragraph1{
+	font-size:20px;
+	color:#000080;
+}
+#text{
+	margin-top:130px;
+	margin-left:60px;
+	margin-right:60px;
+	text-align: justify;
+	overflow: auto;
+}
+h2{
+	color:#e60000;
+	padding-left:40px;
+}
+#text_left{
+	float: left;
+	width:950px;
+}
+#text_right{
+	margin: 150px 0 0 1030px;
+	border-left:2px solid #000080;
+}
+#image_gallery{
+	width:100%;
+	height:100%;
+	border:none;
+	margin-top:700px;
+}
+.image1,.image2,.image3,.image4,.image5,.image6,.image7{
+	background:linear-gradient(to bottom, #000066 0%, #3399ff 100%);
+	border:3px solid #000066;
+	width:310px;
+	height:260px;
+	padding:5px;
+	border-radius: 7px;
+}
+.caption{
+	color:#000066;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7{
+	width:300px;
+	height:200px;
+	border: 5px double #000066;
+	border-radius: 5px;
+	-webkit-filter: sepia(50%);
+}
+.image1{
+	-webkit-transform: rotate(10deg);
+	position: absolute;
+	z-index: 4;
+	top: 1050px;
+	left: 74%;
+}
+.image2{
+	-webkit-transform: rotate(-10deg);
+	position: absolute;
+	z-index: 3;
+	top:1050px;
+	left: 2%;
+}
+.image3{
+	position: absolute;
+	z-index: 2;
+	top:1020px;
+	left: 25%;
+}
+.image6{
+	position: absolute;
+	z-index: 1;
+	top:1020px;
+	left: 50%;
+}
+.image4{
+	-webkit-transform: rotate(-10deg);
+	position: absolute;
+	z-index: 5;
+	top:1200px;
+	left: 17%;
+}
+.image5{
+	-webkit-transform: rotate(10deg);
+	position: absolute;
+	z-index: 6;
+	top:1200px;
+	left: 56%;
+}
+.image7{
+	position: absolute;
+	z-index: 7;
+	top:1300px;
+	left: 37%;
+}
+.image1:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+}
+.image2:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+
+}
+.image3:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+
+}
+.image4:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+}
+.image5:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+}
+.image6:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+}
+.image7:hover{
+	-webkit-animation-name:unu;
+	-webkit-animation-duration:6s;
+	-webkit-animation-iteration-count: 1;
+
+}
+@-webkit-keyframes unu
+{
+	from{
+		-webkit-filter: sepia(50%);
+		background-color:#527a7a;
+		border:5px double #ffff00;
+		z-index: 8;
+		-webkit-transform:perspective(300px) rotateY(0deg);
+		
+		}
+	to{	
+		-webkit-filter: sepia(0);
+		z-index: 8;
+		background-color:#527a7a;
+		border:5px double #e60000;
+		-webkit-transform:perspective(300px) rotateY(360deg);
+		}
+}

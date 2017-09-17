@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap :Carousel</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+				<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+  </style>
+	</head>
+	<body style="background-color:#d1e0e0">
+		<div class="jumbotron text-center" style="background: linear-gradient(to top, #003300 0%, #669999 98%)">
+			<img class="pull-left" src="./images/icon-b3.png" width="100" height="100" style="padding:20px;"/>
+			<h1 style="color:#001a00">Bootstrap :Carousel</h1>
+			<p style="color:#d1e0e0">The Carousel plugin is a component for cycling through elements, like a carousel (slideshow).</p> 
+			<a style="color:#b30000;font-weight:bold" href="index.html">Back to main page</a>
+		</div>
+
+		<div class="container">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators" >
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<img src="./images/flowers.jpg" alt="Flowers" width="400" height="300">
+						<div class="carousel-caption">
+							<h3 style="color:black;text-decoration: underline">Flowers</h3>
+							<p style="color:black">Yellow butterfly on the beautiful spring flowers.</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="./images/elephants.jpg" alt="Elephants" width="400" height="300">
+						<div class="carousel-caption">
+							<h3 style="color:#003300;text-decoration: underline">Elephants</h3>
+							<p style="color:#003300">Wild animals.</p>
+						</div>
+					</div>
+    
+					<div class="item">
+						<img src="./images/sea.jpg" alt="Sea" width="400" height="300">
+						<div class="carousel-caption">
+							<h3 style="color:black;text-decoration: underline">Sea</h3>
+							<p style="color:black">Sea Sky Sunset Peaceful Sailboat.</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="./images/mountains.jpg" alt="Mountains" width="400" height="300">
+						<div class="carousel-caption">
+							<h3 style="color:white;text-decoration: underline">Mountains</h3>
+							<p style="color:white">Autumn mountain river .</p>
+						</div>
+					</div>
+  
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+	</body>
+</html>
