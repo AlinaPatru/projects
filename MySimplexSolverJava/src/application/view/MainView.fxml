@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainViewController">
+   <children>
+      <Pane fx:id="canvas" prefHeight="600.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="394.0" layoutY="223.0" prefHeight="17.0" prefWidth="221.0" text="Choose the type of the problem" />
+            <RadioButton fx:id="min" layoutX="396.0" layoutY="258.0" mnemonicParsing="false" selected="true" text="Minimize">
+               <toggleGroup>
+                  <ToggleGroup fx:id="group" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="max" layoutX="491.0" layoutY="257.0" mnemonicParsing="false" text="Maximize" toggleGroup="$group" />
+            <Label layoutX="401.0" layoutY="312.0" prefHeight="17.0" prefWidth="207.0" text="Enter the number of variables" />
+            <TextField fx:id="nrVariablesField" layoutX="404.0" layoutY="342.0" />
+            <Label layoutX="396.0" layoutY="381.0" prefHeight="17.0" prefWidth="207.0" text="Enter the number of constraints" />
+            <TextField fx:id="nrConstraintsField" layoutX="405.0" layoutY="409.0" />
+            <Button layoutX="423.0" layoutY="543.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="113.0" text="Next" />
+            <Text disable="true" fill="#0c4eb9" fontSmoothingType="LCD" layoutX="-36.0" layoutY="164.0" rotate="-42.0" stroke="#4f9fe0" strokeLineJoin="ROUND" text="MySimplexSolver" wrappingWidth="475.2620849609375">
+               <font>
+                  <Font size="56.0" />
+               </font>
+               <effect>
+                  <Reflection bottomOpacity="0.03" fraction="0.67" topOpacity="0.3" />
+               </effect>
+            </Text>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Pane>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

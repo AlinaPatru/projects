@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.controller.ShowNotificationViewController">
+   <children>
+      <SplitPane dividerPositions="0.26174496644295303" layoutX="59.0" layoutY="33.0" orientation="VERTICAL" prefHeight="300.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="252.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="14.0" text="X" textFill="#fcf9f9" />
+                  <Label fx:id="numberNotifications" layoutX="14.0" layoutY="42.0" prefHeight="32.0" prefWidth="273.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #520101;">
+               <children>
+                  <Circle fill="#fcf9f9" layoutX="33.0" layoutY="32.0" radius="25.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#970d0d" />
+                              <Stop color="#220303" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Label layoutX="26.0" layoutY="-3.0" text="!" textFill="#8a0505">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="notificationMessage" editable="false" layoutX="16.0" layoutY="69.0" prefHeight="140.0" prefWidth="267.0" text="adgjgdsj" />
+                  <Button layoutX="211.0" layoutY="20.0" mnemonicParsing="false" onAction="#nextNotification" prefHeight="25.0" prefWidth="67.0" text="Next" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

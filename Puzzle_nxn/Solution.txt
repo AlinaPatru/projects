@@ -1,0 +1,168 @@
+
+1 2 3 
+4 5 6 
+7 8 0 
+
+jos
+Path cost =  21
+
+
+1 2 3 
+4 5 0 
+7 8 6 
+
+dreapta
+Path cost =  20
+
+
+1 2 3 
+4 0 5 
+7 8 6 
+
+dreapta
+Path cost =  19
+
+
+1 2 3 
+0 4 5 
+7 8 6 
+
+jos
+Path cost =  18
+
+
+0 2 3 
+1 4 5 
+7 8 6 
+
+stanga
+Path cost =  17
+
+
+2 0 3 
+1 4 5 
+7 8 6 
+
+sus
+Path cost =  16
+
+
+2 4 3 
+1 0 5 
+7 8 6 
+
+dreapta
+Path cost =  15
+
+
+2 4 3 
+0 1 5 
+7 8 6 
+
+sus
+Path cost =  14
+
+
+2 4 3 
+7 1 5 
+0 8 6 
+
+stanga
+Path cost =  13
+
+
+2 4 3 
+7 1 5 
+8 0 6 
+
+jos
+Path cost =  12
+
+
+2 4 3 
+7 0 5 
+8 1 6 
+
+stanga
+Path cost =  11
+
+
+2 4 3 
+7 5 0 
+8 1 6 
+
+jos
+Path cost =  10
+
+
+2 4 0 
+7 5 3 
+8 1 6 
+
+dreapta
+Path cost =  9
+
+
+2 0 4 
+7 5 3 
+8 1 6 
+
+dreapta
+Path cost =  8
+
+
+0 2 4 
+7 5 3 
+8 1 6 
+
+sus
+Path cost =  7
+
+
+7 2 4 
+0 5 3 
+8 1 6 
+
+stanga
+Path cost =  6
+
+
+7 2 4 
+5 0 3 
+8 1 6 
+
+stanga
+Path cost =  5
+
+
+7 2 4 
+5 3 0 
+8 1 6 
+
+sus
+Path cost =  4
+
+
+7 2 4 
+5 3 6 
+8 1 0 
+
+dreapta
+Path cost =  3
+
+
+7 2 4 
+5 3 6 
+8 0 1 
+
+jos
+Path cost =  2
+
+
+7 2 4 
+5 0 6 
+8 3 1 
+
+initial node
+Path cost =  1
+

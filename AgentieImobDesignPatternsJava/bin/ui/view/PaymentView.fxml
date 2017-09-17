@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="container" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controller.PaymentViewController">
+   <children>
+      <BorderPane fx:id="border" layoutX="10.0" layoutY="10.0" prefHeight="778.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="64.0" prefWidth="1024.0" style="-fx-background-color: #336699;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="68.0" fitWidth="335.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="buttonLogout" layoutX="829.0" layoutY="11.0" maxHeight="47.0" mnemonicParsing="false" onAction="#logout" prefHeight="47.0" prefWidth="95.0" text="Log out" textFill="#fcfafa" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="11.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="buttonBack" layoutX="935.0" layoutY="11.0" mnemonicParsing="false" onAction="#back" prefHeight="47.0" prefWidth="75.0" text="Back" textFill="#fcfcfc" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="11.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <Pane prefHeight="38.0" prefWidth="1024.0" style="-fx-background-color: #336699;" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <Pane fx:id="leftPane" prefHeight="662.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="662.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <TextArea fx:id="detailsText" editable="false" prefHeight="660.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

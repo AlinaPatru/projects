@@ -1,0 +1,70 @@
+.root {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12.43529411764706px;
+    -fx-base: #520101;
+    -fx-background: #F4F4F4;
+    -fx-focus-color: #DE1303;
+    -fx-control-inner-background: #D0CECE;
+    -fx-text-background-color: #520101;
+    -fx-text-inner-color: #520101;
+    -fx-inner-border: linear-gradient(to bottom, derive(-fx-color,75.63389830508476%) 0%, derive(-fx-color,22.08135593220338%) 100%);
+    -fx-body-color: linear-gradient( to bottom, derive(-fx-color, 39.08474576271189%) 0%, derive(-fx-color, -29.864406779661024%) 100%);
+    -fx-outer-border: derive(-fx-color,-62.71186440677966%);
+    -fx-shadow-highlight-color: derive(-fx-background,-85.08474576271188%);
+    -fx-text-box-border: derive(-fx-background,91.18644067796612%);
+}
+.button, .toggle-button, .choice-box {
+    -fx-background-radius: 13, 13, 12, 11;
+    -fx-padding: 7px 14px 7px 14px;
+}
+.menu-button {
+    -fx-background-radius: 13, 13, 12, 11;
+}
+.menu-button .label {
+    -fx-padding: 7px 22px 7px 14px;
+}
+.menu-button .arrow-button {
+    -fx-padding: 7px 10px 7px 0px;
+}
+.choice-box {
+    -fx-padding: 0 10px 0 0;
+}
+.choice-box .label {
+    -fx-padding: 7px 8px 7px 10px;
+}
+.choice-box .open-button {
+    -fx-padding: 1 0 0 12px;
+}
+.combo-box-base:editable .text-field, .combo-box-base .arrow-button, .combo-box .list-cell {
+    -fx-padding: 7px 10px 7px 10px;
+}
+.check-box .box {
+    -fx-padding: 0.3333333333333333em;
+}
+.radio-button .radio {
+    -fx-padding: 0.4166663333333333em;
+}
+.label, .check-box, .radio-button {
+    -fx-text-fill: -fx-text-background-color;
+}
+.button, .toggle-button, .check-box .box, .radio-button .radio, .choice-box, .menu-button, .tab, .combo-box-base {
+    -fx-background-insets: 0 0 -1 0, 0, 2, 3;
+}
+.button:focused, .toggle-button:focused, .check-box:focused .box, .radio-button:focused .radio, .choice-box:focused, .menu-button:focused, .combo-box-base:focused {
+    -fx-background-insets: -1.4, 0, 2, 3;
+}
+.combo-box-base .arrow-button {
+    -fx-background-insets: 0, 2, 3;
+}
+.choice-box .label { /* Workaround for RT-20015 */
+    -fx-text-fill: -fx-text-base-color;
+}
+.menu-button .label { /* Workaround for RT-20015 */
+    -fx-text-fill: -fx-text-base-color;
+}
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+.table-row-cell:selected .table-cell {
+    -fx-background-color: white;
+}

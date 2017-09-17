@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.controller.LoginViewController">
+   <children>
+      <SplitPane dividerPositions="0.17587939698492464" layoutX="102.0" layoutY="14.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="55.0" prefWidth="598.0" style="-fx-background-color: #520101;">
+               <children>
+                  <Circle fill="#fefeff" layoutX="663.0" layoutY="35.0" radius="21.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#d00e0e" />
+                              <Stop color="#220202" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Circle fill="#070707" layoutX="96.0" layoutY="103.0" radius="96.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#fafbfc" layoutX="622.0" layoutY="51.0" radius="17.0" stroke="#650909" strokeType="INSIDE" />
+                  <Circle fill="#fafafa" layoutX="586.0" layoutY="57.0" radius="13.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#570303" />
+                              <Stop color="#252323" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Circle fill="#f7f8f8" layoutX="551.0" layoutY="56.0" radius="11.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#d00e0e" />
+                              <Stop color="#220202" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Circle fill="#f8f8f8" layoutX="524.0" layoutY="43.0" radius="8.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#570303" />
+                              <Stop color="#252323" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Circle fill="WHITE" layoutX="96.0" layoutY="103.0" radius="79.0" strokeType="INSIDE">
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#d00e0e" />
+                              <Stop color="#220202" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Circle>
+                  <Circle fill="#070707" layoutX="96.0" layoutY="103.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <GridPane layoutX="153.0" layoutY="22.0" prefHeight="94.0" prefWidth="357.0" AnchorPane.bottomAnchor="291.0" AnchorPane.leftAnchor="153.0" AnchorPane.rightAnchor="188.0" AnchorPane.topAnchor="22.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="171.0" minWidth="10.0" prefWidth="69.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="184.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label fx:id="usernameLabel" prefHeight="17.0" prefWidth="124.0" text="Username" />
+                        <Label fx:id="passwordLabel" prefHeight="17.0" prefWidth="120.0" text="Password" GridPane.rowIndex="1" />
+                        <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="usernameField" GridPane.columnIndex="1" />
+                     </children>
+                  </GridPane>
+                  <Button layoutX="269.0" layoutY="145.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="125.0" text="Login" />
+                  <Button layoutX="241.0" layoutY="330.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="25.0" prefWidth="194.0" text="Create account" />
+                  <Label fx:id="noAccount" layoutX="241.0" layoutY="306.0" prefHeight="17.0" prefWidth="221.0" text="Don't have an account yet?" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

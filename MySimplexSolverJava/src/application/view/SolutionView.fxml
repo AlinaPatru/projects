@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SolutionViewController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="700.0">
+         <children>
+            <Text disable="true" fill="#0c4eb9" fontSmoothingType="LCD" layoutX="-5.0" layoutY="109.0" rotate="-24.0" stroke="#4f9fe0" strokeLineJoin="ROUND" text="MySimplexSolver" wrappingWidth="347.8268737792969">
+               <effect>
+                  <Reflection bottomOpacity="0.03" fraction="0.67" topOpacity="0.3" />
+               </effect>
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="485.0" layoutY="554.0" mnemonicParsing="false" onAction="#newProblem" prefHeight="25.0" prefWidth="168.0" text="New problem" />
+            <TextField fx:id="zTextField" editable="false" layoutX="527.0" layoutY="117.0" prefHeight="25.0" prefWidth="84.0" />
+            <Label fx:id="zLabel" layoutX="390.0" layoutY="121.0" prefHeight="17.0" prefWidth="65.0" textFill="#720303">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="410.0" layoutY="181.0" text="X=" textFill="#720303">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="21.0" />
+               </font>
+            </Label>
+            <VBox layoutX="527.0" layoutY="173.0" prefHeight="360.0" prefWidth="84.0" fx:id="xValues" />
+            <Label layoutX="85.0" layoutY="334.0" prefHeight="39.0" prefWidth="205.0" rotate="-24.0" text="The solution is :" textAlignment="CENTER" textFill="#720303">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Pane>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

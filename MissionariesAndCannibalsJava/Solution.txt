@@ -1,0 +1,48 @@
+
+Node         state=State [left=RiverBank [missionariesNumber=0, cannibalsNumber=0, boat=0], right=RiverBank [missionariesNumber=3, cannibalsNumber=3, boat=1]], action=2C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=0, cannibalsNumber=2, boat=1], right=RiverBank [missionariesNumber=3, cannibalsNumber=1, boat=0]], action=1C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=0, cannibalsNumber=1, boat=0], right=RiverBank [missionariesNumber=3, cannibalsNumber=2, boat=1]], action=2C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=0, cannibalsNumber=3, boat=1], right=RiverBank [missionariesNumber=3, cannibalsNumber=0, boat=0]], action=1C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=0, cannibalsNumber=2, boat=0], right=RiverBank [missionariesNumber=3, cannibalsNumber=1, boat=1]], action=2M
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=2, cannibalsNumber=2, boat=1], right=RiverBank [missionariesNumber=1, cannibalsNumber=1, boat=0]], action=1M 1C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=1, cannibalsNumber=1, boat=0], right=RiverBank [missionariesNumber=2, cannibalsNumber=2, boat=1]], action=2M
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=3, cannibalsNumber=1, boat=1], right=RiverBank [missionariesNumber=0, cannibalsNumber=2, boat=0]], action=1C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=3, cannibalsNumber=0, boat=0], right=RiverBank [missionariesNumber=0, cannibalsNumber=3, boat=1]], action=2C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=3, cannibalsNumber=2, boat=1], right=RiverBank [missionariesNumber=0, cannibalsNumber=1, boat=0]], action=1M
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=2, cannibalsNumber=2, boat=0], right=RiverBank [missionariesNumber=1, cannibalsNumber=1, boat=1]], action=1M 1C
+
+
+
+Node         state=State [left=RiverBank [missionariesNumber=3, cannibalsNumber=3, boat=1], right=RiverBank [missionariesNumber=0, cannibalsNumber=0, boat=0]], action=initial
+
+
