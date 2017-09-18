@@ -1,0 +1,53 @@
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\bin\Debug\DameJoc.exe.config
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\bin\Debug\DameJoc.exe
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\bin\Debug\DameJoc.pdb
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\MainWindow.baml
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\MainWindow.g.cs
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\App.g.cs
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc_MarkupCompile.cache
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.g.resources
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.Properties.Resources.resources
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.csproj.GenerateResource.Cache
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.exe
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.pdb
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\DameJoc.csprojResolveAssemblyReference.cache
+C:\Users\alina\Documents\Visual Studio 2013\Projects\DameJoc\DameJoc\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\S\Desktop\DameJoc\DameJoc\bin\Debug\DameJoc.exe.config
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.exe
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.pdb
+C:\Users\S\Desktop\DameJoc\DameJoc\bin\Debug\DameJoc.exe
+C:\Users\S\Desktop\DameJoc\DameJoc\bin\Debug\DameJoc.pdb
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.csprojResolveAssemblyReference.cache
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\MainWindow.baml
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\MainWindow.g.cs
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\App.g.cs
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc_MarkupCompile.cache
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.g.resources
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.Properties.Resources.resources
+C:\Users\S\Desktop\DameJoc\DameJoc\obj\Debug\DameJoc.csproj.GenerateResource.Cache
+D:\animation java\New folder\DameJoc\DameJoc\bin\Debug\DameJoc.exe.config
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.exe
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.pdb
+D:\animation java\New folder\DameJoc\DameJoc\bin\Debug\DameJoc.exe
+D:\animation java\New folder\DameJoc\DameJoc\bin\Debug\DameJoc.pdb
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.csprojResolveAssemblyReference.cache
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\MainWindow.baml
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\MainWindow.g.cs
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\App.g.cs
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc_MarkupCompile.cache
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.g.resources
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.Properties.Resources.resources
+D:\animation java\New folder\DameJoc\DameJoc\obj\Debug\DameJoc.csproj.GenerateResource.Cache
+D:\animation java\DameJoc\DameJoc\bin\Debug\DameJoc.exe.config
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.exe
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.pdb
+D:\animation java\DameJoc\DameJoc\bin\Debug\DameJoc.exe
+D:\animation java\DameJoc\DameJoc\bin\Debug\DameJoc.pdb
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.csprojResolveAssemblyReference.cache
+D:\animation java\DameJoc\DameJoc\obj\Debug\MainWindow.baml
+D:\animation java\DameJoc\DameJoc\obj\Debug\MainWindow.g.cs
+D:\animation java\DameJoc\DameJoc\obj\Debug\App.g.cs
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc_MarkupCompile.cache
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.g.resources
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.Properties.Resources.resources
+D:\animation java\DameJoc\DameJoc\obj\Debug\DameJoc.csproj.GenerateResource.Cache
